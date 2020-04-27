@@ -1,7 +1,7 @@
 # Twitter-Sentiment-Analysis
 
 This project requires:
-* Python 3,
+* Python3
 * NodeJS version 6.0 or above,
 * MongoDB
 
