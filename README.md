@@ -15,3 +15,5 @@ This project focuses on Classification of user interests based on Tweeter data a
 * traverse to the project directory and execute the following commands:
 	* npm install
 	* npm start
+	
+You can check the output at <http://localhost:3000/>
