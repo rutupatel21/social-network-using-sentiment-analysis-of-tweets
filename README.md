@@ -1,19 +1,24 @@
-# social-network-using-sentiment-analysis-of-tweets
+# Twitter-Sentiment-Analysis
 
-This project focuses on Classification of user interests based on Tweeter data and provide chat rooms for individuals according to their interests.Following are the fundamental modules of the project: 
-* Twitter data is fetched in real time
-* Feature extraction
-* Chat rooms for individuals
-* Database replication
-
-#### Project requirements: ####
-* python
-* NodeJS
+This project requires:
+* Python 3,
+* NodeJS version 6.0 or above,
 * MongoDB
 
-#### How to execute: ####
-* traverse to the project directory and execute the following commands:
-	* npm install
-	* npm start
-	
-You can check the output at <http://localhost:3000/>
+Before tunning the project install below requirements:
+* sudo apt-get install python-pip3
+* pip3 install flask
+* pip3 install pymongo
+* npm install python shell
+* pip3 install tweepy
+* pip3 install textblob
+* python3 -m nltk.downloader all
+
+Also change the path of directories in python file.
+Python files are stored in "Graph>Python" folder
+Chat Room files are stored in  "Graph>Python>Chat" folder
+
+First Run all the python files and collect some data in Mongodb.
+Go to back to main directory as follow below Steps:
+* npm install
+* npm start

@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/home/gaurav/Sumit/myapps/views/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<title>Sentiment Analysis</title>
+</script>
+<style>
+p.ex1 {; 
+  padding: 35px 70px;
+}
+body {
+ background-image: url('./Background/green.png');
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p {
+  margin: 5%;
+  font-size:40px;
+  font-weight: bold;
+  color: #000000;
+  align: center;
+}
+</style>
+<script type="text/javascript">
+		var images=['./Background/yellow.jpg','./Background/blue.jpg','./Background/green.png','./Background/t2b5RQY.jpg','./Background/red.jpg','./Background/purple.jpg'];
+var url=0;
+setInterval(function(){
+   url+=1;
+  if(url==6){
+    url=0;
+  }
+  document.body.style.backgroundImage = 'url('+images[url]+')';
+  document.body.style.backgroundRepeat = "repeat-x";
+  document.body.style.backgroundSize = "100%";
+},5000);
+</script>
+</head>
+<body>
+<div >
+<H1 style="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 60px;text-align:center;"> SENTIMENT ANALYSIS </H1>
+<H2 style="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 30px;text-align:center;"> Select Category </H2>
+</div>
+<div>
+<table border="0" style="float:right">
+<tr><td style="text-align: center;">
+	<a href="http://localhost:3000/technology"><img alt="Technology" src="./Technology.png" width="50%" height="50%"></a></td>
+<td style="text-align: center;">
+	<a href="http://localhost:3000/sports"><img alt="Sports" src="./Sports.png" width="50%" height="50%">
+</a></td>
+<td style="text-align: center;">
+	<a href="http://localhost:3000/travel"><img alt="Travel" src="./Travell.png" width="50%" height="50%">
+</a></td></tr>
+</table>
+<table width="77%" border="0" style="float:centre">
+<tr>
+<td style="text-align: right;">
+	<a href="http://localhost:3000/politics"><img alt="Politics" src="./Politics_logo.png" width="45%" height="45%">
+</a></td>
+<td style="text-align: right;">
+	<a href="http://localhost:3000/foodFashion"><img alt="Food and Fashion" src="./LIFESTYLE.png" width="45%" height="45%">
+</a></td></tr>
+</table>
+<div class="background">
+</div></div>
+
+</body>
+</html>
