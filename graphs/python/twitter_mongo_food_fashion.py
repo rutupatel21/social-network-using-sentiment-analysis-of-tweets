@@ -14,8 +14,8 @@ import os
 
 # Go to http://apps.twitter.com and create an app.
 # The consumer key and secret will be generated for you after
-consumer_key = "BlO5mzzPPAUgL3yeGqZkGinK2"
-consumer_secret = "Z7TI0mHTx8SBUcZiQiw4FPzUR13FKGCVyVgy0W8VWFDQPo3sdW"
+consumer_key = "<consumer_key>"
+consumer_secret = "<consumer_secret>"
 
 # After the step above, you will be redirected to your app's page.
 # Create an access token under the the "Your access token" section
